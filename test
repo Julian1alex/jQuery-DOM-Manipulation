@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="container">
+        <ul id="sections">
+            <li id="sec1"><a href="#section1">Section 1</a></li>
+            <li id="sec2"><a href="#section2">Section 2</a></li>  
+            <li id="sec3"><a href="#section3">Section 3</a></li>    
+        </ul>
+        <div id="section1" class="content">
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ducimus minus quis atque, sed fuga quae rem nemo quidem at, enim similique. Voluptate obcaecati eveniet amet dolorem explicabo perferendis alias.</P>
+        </div>
+
+        <div id="section2" class="content">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa excepturi dolore adipisci nesciunt blanditiis! Eaque dolore magni rerum? Quas illum quo eaque ducimus hic facere eos unde eum. Doloremque, iure!</p>
+        </div>
+
+        <div id="section3" class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam at eaque rem culpa officiis ducimus, blanditiis sapiente doloremque voluptates ex maiores. Voluptatibus dolor obcaecati beatae dignissimos esse, repellendus iusto expedita?</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+possible js?
+
+$(document).ready(function() {
+$(".content")
+.first ()
+.show()
+
+$("#sections").on("click", "z", function(a) {
+var section = $(this).attr("href")
+$(".content").hide()
+$(section).show ()
+})
+})  

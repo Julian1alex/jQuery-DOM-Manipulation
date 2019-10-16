@@ -1,0 +1,50 @@
+*, * ::before, *::after { 
+    box-sizing: inherit;
+}
+
+html { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {font-family: sans-serif;}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+li {list-style: none;
+height: 50px;
+display: flex;
+justify-content: center;}
+
+#sec1 {background: blue;}
+#sec2 {background: blue;}
+#sec3 {background: blue;}
+
+#container {
+    border:solid 2px blue;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#myp {
+    margin: 0;
+}
+
+a {font-size: 40px;
+text-decoration: none;
+color: white;}
+
+p {margin: 10px;}
+
+.content {height: 0;
+overflow: hidden;
+transition: linear 2s;}
+
+.animate {height: 80px;}
+
